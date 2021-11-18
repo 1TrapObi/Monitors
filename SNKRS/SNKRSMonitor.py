@@ -63,9 +63,9 @@ def test_webhook():
         "avatar_url": CONFIG['AVATAR_URL'],
         "embeds": [{
             "title": "Testing Webhook",
-            "description": "This is just a quick test to ensure the webhook works. Thanks again for using these montiors!",
+            "description": "It's over for SNKRS this Holiday SZN... YaBillMe",
             "color": int(CONFIG['COLOUR']),
-            "footer": {'text': 'Made by Yasser'},
+            "footer": {'text': 'Powered by Hackaveli'},
             "timestamp": str(datetime.utcnow())
         }]
     }
@@ -94,7 +94,7 @@ def discord_webhook(title, description, url, thumbnail, price, style_code, sizes
             'url': url,
             'thumbnail': {'url': thumbnail},
             'color': int(CONFIG['COLOUR']),
-            'footer': {'text': 'Made by Yasser'},
+            'footer': {'text': 'Powered by Hackaveli'},
             'timestamp': str(datetime.utcnow()),
             'fields': [
                 {'name': 'Price', 'value': price},

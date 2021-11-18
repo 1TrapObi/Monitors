@@ -80,7 +80,7 @@ def test_webhook():
             "title": "Testing Webhook",
             "description": "This is just a quick test to ensure the webhook works. Thanks again for using these monitors!",
             "color": CONFIG['COLOUR'],
-            "footer": {'text': 'Made by Yasser & Bogdan'},
+            "footer": {'text': 'Powered by Hackaveli'},
             "timestamp": str(datetime.utcnow())
         }]
     }
@@ -110,7 +110,7 @@ def discord_webhook(title, description, thumbnail, url):
             "thumbnail": {"url": thumbnail},
             "url": url,
             "color": int(CONFIG['COLOUR']),
-            "footer": {'text': 'Made by Yasser & Bogdan'},
+            "footer": {'text': 'Powered by Hackaveli'},
             "timestamp": str(datetime.utcnow())
         }]
     }
