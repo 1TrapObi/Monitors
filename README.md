@@ -10,13 +10,7 @@
     A collection of web monitors that notify of restocks or updates on sneaker related sites through Discord Webhook
     <br />
     <a href="https://github.com/yasserqureshi1/Sneaker-Monitors/">Report Bug</a>
-    ·
-    <a href="https://github.com/yasserqureshi1/Sneaker-Monitors/">Request Feature</a>
-  </p>
-
-  <p align="center">
-    <a href="https://www.paypal.com/donate?hosted_button_id=SKRAD2YFGZC5C">
-    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Logo" width="auto" height="50" >
+    
   </a>
   </p> 
 </p>
